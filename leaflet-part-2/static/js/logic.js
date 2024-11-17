@@ -90,7 +90,7 @@ d3.json(earthquakes).then(quakes => {
                 fillOpacity: .7, 
                 radius: (properties.mag) * 35000,
             // Add location, magnitude, and depth to each popup
-            }).bindPopup(`Location: ${properties.place}<hr>Magnitude: ${properties.mag}<hr>Depth: ${quakesCoordinates[2]}`);
+            }).bindPopup(`Location: ${properties.place}<hr>Magnitude: ${properties.mag}<hr>Depth: ${quakesCoordinates[2]} km`);
 
             // Add each circle to the earthquake layer
             earthquakeLayer.addLayer(circle);
