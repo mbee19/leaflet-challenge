@@ -71,7 +71,7 @@ d3.json(url).then(data => {
     });
 
     // Add location, magnitude, and depth to each popup
-    circle.bindPopup(`Location: ${properties.place}<hr>Magnitude: ${properties.mag}<hr>Depth: ${coordinates[2]}`).addTo(myMap);
+    circle.bindPopup(`Location: ${properties.place}<hr>Magnitude: ${properties.mag}<hr>Depth: ${coordinates[2]} km`).addTo(myMap);
    
     });
     
