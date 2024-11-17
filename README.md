@@ -35,4 +35,4 @@ In leaflet-part-1, I got the Washington DC coordinates for the center of the map
 ```
 For the optional leaflet-part-2, I used all the same code from Part 1, and added in the tectonic plate data from this github page: https://github.com/fraxen/tectonicplates/tree/master/GeoJSON, specifically the PB2002_boundaries.json file. ChatGPT helped me troubleshoot the order/flow of my code and also explained how to organize the overlay layers so that everything runs correctly. I also used the Jawg_Dark tile layer for one of the map options, from this github page: https://leaflet-extras.github.io/leaflet-providers/preview/. 
 
-You can view code for both Part 1 and Part 2 in this repository, and the 
+You can view code for both Part 1 and Part 2 in this repository, and the published page for Part 2 here: https://mbee19.github.io/leaflet-challenge/leaflet-part-2/. 
